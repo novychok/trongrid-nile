@@ -1,4 +1,4 @@
-module github.com/novychok/trontransaction
+module github.com/novychok/niletrongrid
 
 go 1.22.3
 
@@ -24,5 +24,5 @@ require (
 	github.com/okx/go-wallet-sdk/util v0.0.2 // indirect
 	golang.org/x/crypto v0.24.0 // indirect
 	golang.org/x/sys v0.21.0 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.34.2
 )

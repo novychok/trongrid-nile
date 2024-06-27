@@ -1,4 +1,4 @@
-package delegate
+package models
 
 type Transaction struct {
 	Visible    bool    `json:"visible"`
@@ -30,4 +30,9 @@ type Value struct {
 	Resource        string `json:"resource"`
 	ReceiverAddress string `json:"receiver_address"`
 	OwnerAddress    string `json:"owner_address"`
+}
+
+// TODO: Broadcast struct
+type BroadcastHex struct {
+	Transaction string `json:"transaction"`
 }
